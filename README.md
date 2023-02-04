@@ -8,13 +8,14 @@ This repo contains:
 * the core scripts for review in github
 * a .unitypackage you can download to load into any Unity project with a quick double click
 
+This package was coded in Unity 2021.3.6f1 but should work for any Unity 2021.1 or later version as that was when ObjectPool<T0> was introduced.
 
 ## ObjectPoolExample.UnityPackage
 Once you download the package, simply double click while your Unity scene is open, the package contains all needed code/prefabs and a test scene pre-setup. 
 
-This package was coded in Unity 2021.3.6f1 but should work for any Unity 2021.1 or later version as that was when ObjectPool<T0> was introduced.
-
-This scene on running will:
+On running the test scene, it will:
 * Creates 20 objects and de-actives each one under >Enemies in the editor hierachy
 * When you press F it will enable an object under >Enemies or create a new one under >Enemies
 * When you hit G it will disable the object
+
+Unless of course you adjust some setting in the editable inspector fields.
