@@ -1,10 +1,12 @@
 # CodeSample: Generic ObjectPool
-Generic Object Pool system wrapping Unity3D's inbuilt ObjectPool<T>
+Generic Object Pool system wrapping Unity3D's inbuilt ObjectPool which is an effective stack implementation under the hood that they optimize occasionally.<T>
 
-This allows you to quickly setup the needed events with some quick properties to help common use cases, while enabling the ability to over-ride for special use cases.
+This package of code allows you to quickly setup the needed events with some quick properties to help common use cases, while enabling the ability to over-ride for special use cases.
 
-This repo contains the core scripts, and a .unitypackage you can download to load into Unity. 
 
+This repo contains:
+* the core scripts for review in github
+* a .unitypackage you can download to load into any Unity project with a quick double click
 
 
 ## ObjectPoolExample.UnityPackage
