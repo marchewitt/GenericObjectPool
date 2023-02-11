@@ -18,4 +18,15 @@ On running the test scene, it will:
 * When you press F it will enable an object under >Enemies or create a new one under >Enemies
 * When you hit G it will disable the object
 
-Unless of course you adjust some setting in the editable inspector fields.
+
+## To use the package in your own project
+
+Create a new class such as Bullet, code some movement logic for the bullet, then create a new class called BulletSpawner.
+On BulletSpawner.cs simply inherit SpawnerBase (which includes monobehavior already).
+
+Attach the BulletSpawner to a blank gameobject in your scene hierachy, configure starting values in inspector (hover for tooltips)
+Then use your preference of event wiring or GetComponent methods to acquire the interface IPoolSpawner<Bullet> and call .Spawn(). 
+
+Note: Without additions to the BulletSpawner.cs class it will spawn directly at the Transform of BulletSpawner but as you can see in the Enemey example this is extendable.
+
+No credits required
